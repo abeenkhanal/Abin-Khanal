@@ -4,12 +4,12 @@ import { FaDribbble, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Profile = () => {
   return (
-    <div className="p-10 bg-[#1c1c1e] rounded-xl shadow-lg mx-auto max-w-sm">
+    <div className="p-10 bg-[#1c1c1e] rounded-xl shadow-lg mx-auto w-[400px]">
       {/* Profile Picture */}
       <img
         src="./pp.png"
         alt="Aabraham James"
-        className="w-50 h-60 rounded-2xl mx-auto object-cover"
+        className="w-60 h-70 rounded-2xl mx-auto object-cover"
       />
 
       {/* Name */}
@@ -20,15 +20,26 @@ const Profile = () => {
       <p className="text-center text-gray-400">Butwal, Nepal</p>
 
       {/* Social Icons */}
-      <div className="flex justify-center mt-4 space-x-6 text-purple-500">
-        <FaDribbble className="hover:text-purple-700" />
-        <FaTwitter className="hover:text-purple-700" />
-        <FaInstagram className="hover:text-purple-700" />
-        <FaEnvelope className="hover:text-purple-700" />
+      <div className="flex justify-center mt-9 space-x-6">
+        {/* Dribbble Icon */}
+        <div className="p-3 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 group">
+          <FaDribbble className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
+        </div>
+        {/* Twitter Icon */}
+        <div className="p-3 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 group">
+          <FaTwitter className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
+        </div>
+        {/* Instagram Icon */}
+        <div className="p-3 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500 group">
+          <FaInstagram className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
+        </div>
+        {/* Email Icon */}
+        <div className="p-3 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-green-500 hover:to-teal-500 group">
+          <FaEnvelope className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
+        </div>
       </div>
-
       {/* Button */}
-      <button className="mt-6 w-full bg-purple-600 hover:bg-purple-800 text-white py-3 rounded-lg text-base font-semibold">
+      <button className="mt-24 w-full bg-purple-600 hover:bg-purple-800 text-white py-3 rounded-lg text-base font-semibold">
         Let's Talk
       </button>
     </div>

@@ -11,7 +11,7 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="bg-black text-white py-44 px-6">
+    <div className="bg-black text-white py-20 px-6">
       {/* Centered Container for Text and Content */}
       <div className="max-w-3xl mx-auto ">
         {/* Title and Subtitle */}

@@ -11,7 +11,7 @@ const Homepage = () => {
   ];
 
   return (
-    <div className="bg-black text-white py-20 px-6">
+    <div className="bg-black text-white py-20 ">
       {/* Centered Container for Text and Content */}
       <div className="max-w-3xl mx-auto ">
         {/* Title and Subtitle */}
@@ -48,7 +48,7 @@ const Homepage = () => {
         </div>
 
         {/* Logo Bar (Infinite Loop with Gap Between Logos) */}
-        <div className="mt-12 w-full">
+        <div className="mt-12 w-10/12">
           <p className="text-gray-400">
             Relied on by companies near, far, and worldwide
           </p>

@@ -28,7 +28,7 @@ const ProjectPage = () => {
   return (
     <div className="bg-black text-white min-h-screen py-10">
       <div className="max-w-3xl mx-auto ">
-        <h1 className="text-6xl font-semibold leading-tight w-4/6">
+        <h1 className="text-6xl font-semibold leading-tight w-4/6 md:w-5/6">
           Recent Projects and <span className="text-purple-500 ">Achievements</span>
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">

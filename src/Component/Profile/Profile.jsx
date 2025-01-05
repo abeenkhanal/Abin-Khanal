@@ -1,10 +1,10 @@
-// components/Profile.js
+
 import React from "react";
 import { FaDribbble, FaTwitter, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Profile = () => {
   return (
-    <div className="p-10 bg-[#1c1c1e] rounded-xl shadow-lg mx-auto w-[400px]">
+    <div className="p-10 bg-[#1c1c1e] rounded-xl shadow-lg mx-auto w-[400px] ">
       {/* Profile Picture */}
       <img
         src="./pp.png"

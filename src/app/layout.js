@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Component/Navbar/Navbar";
 import Profile from "@/Component/Profile/Profile";
-import Frequentlyaskquestions from "@/Component/Frequentlyaskquestions/Frequentlyaskquestions";
+
 
 
 
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
             </div>
             
             {children}
-            <Frequentlyaskquestions/>
+           
           </div>
           
         </div>

@@ -26,7 +26,7 @@ const Homepage = () => {
         {/* Stats Section */}
         <div className="flex space-x-2 mt-12">
           {[
-            { number: "+12", label: "YEARS OF EXPERIENCE" },
+            { number: "+12", label: "YEARS OF EXPERIENCE" }, 
             { number: "+46", label: "PROJECTS COMPLETED" },
             { number: "+20", label: "WORLDWIDE CLIENTS" },
           ].map((stat, index) => (

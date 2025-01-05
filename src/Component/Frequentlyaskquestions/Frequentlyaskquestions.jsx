@@ -43,12 +43,12 @@ const FrequentlyAskedQuestions = () => {
         <h2 className="text-7xl font-bold mb-12 w-4/6 md:w-5/6">
           Frequently Asked <span className="text-purple-500">Questions</span>
         </h2>
-        <div className="space-y-6">
+        <div className="space-y-6 ">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className={`bg-gray-800 p-5 rounded-lg shadow-lg transition-all duration-500 ${
-                openIndex === index ? "bg-purple-700" : "bg-gray-800"
+              className={` p-5 rounded-lg shadow-lg transition-all duration-500 ${
+                openIndex === index ? "bg-purple-700" : "bg-[#1c1c1e]"
               }`}
             >
               <button

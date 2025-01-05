@@ -38,31 +38,39 @@ const FrequentlyAskedQuestions = () => {
   };
 
   return (
-    <div className="bg-black text-white py-16 px-6">
+    <div className="bg-black text-white ">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-7xl  font-bold  mb-12">
+        <h2 className="text-7xl font-bold mb-12 w-4/6 md:w-5/6">
           Frequently Asked <span className="text-purple-500">Questions</span>
         </h2>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-5 rounded-lg shadow-lg"
+              className={`bg-gray-800 p-5 rounded-lg shadow-lg transition-all duration-500 ${
+                openIndex === index ? "bg-purple-700" : "bg-gray-800"
+              }`}
             >
               <button
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between items-center w-full text-left text-lg font-semibold text-white"
               >
                 <span>{faq.question}</span>
-                {openIndex === index ? (
-                  <AiOutlineUp className="text-purple-500" />
-                ) : (
-                  <AiOutlineDown className="text-purple-500" />
-                )}
+                <span
+                  className={`transition-transform duration-500 transform ${
+                    openIndex === index ? "rotate-180 text-purple-300" : "rotate-0 text-purple-500"
+                  }`}
+                >
+                  {openIndex === index ? <AiOutlineUp /> : <AiOutlineDown />}
+                </span>
               </button>
-              {openIndex === index && (
-                <p className="mt-3 text-gray-400">{faq.answer}</p>
-              )}
+              <div
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                  openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                }`}
+              >
+                <p className="mt-3 text-gray-200">{faq.answer}</p>
+              </div>
             </div>
           ))}
         </div>

@@ -5,12 +5,12 @@ const AboutPage = () => {
   return (
     <div className="bg-black text-white py-20 sm:py-8">
       {/* Centered Container */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl  ">
         {/* About Me Section */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight ">
           About <span className="text-purple-500">Me</span>
         </h1>
-        <p className="text-gray-400 mt-6 text-base sm:text-lg text-center">
+        <p className="text-gray-400 mt-6 text-base sm:text-lg ">
           I’m a passionate developer and problem solver with a mission to create impactful digital experiences. With a
           background in both front-end and back-end development, I bring ideas to life with precision and creativity.
           My work blends technical expertise, artistic vision, and a relentless drive for perfection.
@@ -43,7 +43,7 @@ const AboutPage = () => {
 
         {/* Expertise */}
         <div className="mt-16">
-          <h3 className="text-2xl sm:text-3xl font-semibold mb-6 text-purple-500 text-center">
+          <h3 className="text-2xl sm:text-3xl font-semibold mb-6 text-purple-500 ">
             Expertise & Achievements
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -70,10 +70,10 @@ const AboutPage = () => {
 
         {/* Personal Touch */}
         <div className="mt-16">
-          <h3 className="text-2xl sm:text-3xl font-semibold mb-6 text-purple-500 text-center">
+          <h3 className="text-2xl sm:text-3xl font-semibold mb-6 text-purple-500 ">
             Beyond the Code
           </h3>
-          <p className="text-gray-400 text-sm sm:text-base text-center max-w-3xl mx-auto">
+          <p className="text-gray-400 text-sm sm:text-base  max-w-3xl mx-auto">
             When I’m not coding, you’ll find me exploring new technologies, mentoring aspiring developers, or enjoying
             outdoor adventures. I believe in continuous learning and staying curious to push boundaries both
             personally and professionally.
@@ -81,12 +81,13 @@ const AboutPage = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 ">
           <button className="bg-purple-600 hover:bg-purple-800 text-white py-3 px-6 sm:px-12 rounded-lg text-sm sm:text-lg font-semibold">
             Let’s Build Something Amazing Together
           </button>
         </div>
       </div>
+      
     </div>
   );
 };

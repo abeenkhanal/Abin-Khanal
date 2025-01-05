@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Component/Navbar/Navbar";
 import Profile from "@/Component/Profile/Profile";
+import Frequentlyaskquestions from "@/Component/Frequentlyaskquestions/Frequentlyaskquestions";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,9 +38,13 @@ export default function RootLayout({ children }) {
             {/* Left (Profile Section) */}
             <div className="flex items-center h-auto md:sticky md:top-0 md:h-screen bg-black">
               <Profile />
+              
             </div>
+            
             {children}
+            <Frequentlyaskquestions/>
           </div>
+          
         </div>
 
 

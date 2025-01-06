@@ -15,7 +15,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="flex justify-center space-x-6 bg-[#242627] p-4 rounded-2xl w-fit mx-auto overflow-visible">
+        <div className="flex flex-wrap justify-center sm:justify-evenly space-x-2 sm:space-x-6 bg-[#242627] p-2 sm:p-4 rounded-2xl w-full sm:w-fit mx-auto overflow-visible">
             {navItems.map((item, index) => (
                 <NavButton key={index} icon={item.icon} label={item.label} href={item.href} />
             ))}
@@ -26,11 +26,11 @@ const Navbar = () => {
 const NavButton = ({ icon: Icon, label, href }) => (
     <div className="relative group">
         <Link href={href}>
-            <div className="flex items-center justify-center w-12 h-12 rounded-lg hover:bg-purple-500 text-gray-300">
+            <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-lg hover:bg-purple-500 text-gray-300">
                 <Icon size={20} />
             </div>
         </Link>
-        <span className="absolute bottom-[-40px] left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-all z-50">
+        <span className="absolute bottom-[-35px] left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition-all z-50">
             {label}
         </span>
     </div>

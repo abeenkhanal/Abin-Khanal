@@ -26,7 +26,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="bg-black text-white min-h-screen py-10">
+    <div className="bg-black text-white py-20">
       <div className="max-w-3xl mx-auto ">
         <h1 className="text-6xl font-semibold leading-tight w-4/6 md:w-5/6">
           Recent Projects and <span className="text-purple-500 ">Achievements</span>

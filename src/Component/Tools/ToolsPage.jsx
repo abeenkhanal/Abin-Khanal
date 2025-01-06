@@ -41,7 +41,7 @@ const tools = [
 
 const Tools = () => {
     return (
-        <div className="bg-black min-h-screen py-16  text-white">
+        <div className="bg-black text-white py-20">
             {/* Title */}
             <div className="mb-12">
                 <h2 className="text-6xl font-bold">

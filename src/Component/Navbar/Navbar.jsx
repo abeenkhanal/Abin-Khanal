@@ -8,7 +8,7 @@ const Navbar = () => {
         { icon: FaHome, label: 'Home', href: '/' },
         { icon: BsFillPersonVcardFill, label: 'About', href: '/AboutPage' },
         { icon: FaFolder, label: 'Projects', href: '/ProjectPage' },
-        { icon: FaTools, label: 'Tools', href: '/tools' },
+        { icon: FaTools, label: 'Tools', href: '/ToolsPage' },
         { icon: FaSuitcase, label: 'Experience', href: '/experience' },
         { icon: FaPen, label: 'Blog', href: '/blog' },
         { icon: FaEnvelope, label: 'Contact', href: '/contact' },

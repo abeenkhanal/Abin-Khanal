@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="bg-black text-white py-20 sm:py-8">
+    <div className="bg-black text-white py-20 ">
       {/* Centered Container */}
       <div className="max-w-5xl  ">
         {/* About Me Section */}

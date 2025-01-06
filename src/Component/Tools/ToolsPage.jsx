@@ -52,6 +52,7 @@ const Tools = () => {
             {/* Tools Grid */}
             <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 {tools.map((tool, index) => (
+                    <button>
                     <div
                         key={index}
                         className={`flex items-center space-x-4 p-6 rounded-lg shadow-lg bg-[#1c1c1e]  hover:bg-purple-700 transition-colors duration-700 `}
@@ -67,6 +68,7 @@ const Tools = () => {
                             <p className="text-sm text-gray-400">{tool.description}</p>
                         </div>
                     </div>
+                    </button>
                 ))}
             </div>
         </div>

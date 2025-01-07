@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
         <div className="bg-black bg-grain bg-blend-overlay min-h-screen">
           {/* Navbar */}
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
             </div>
 
             {/* Right (Content Section) */}
-            <div className="h-auto lg:h-screen overflow-hidden">{children}</div>
+            <div className="h-auto lg:h-auto overflow-y-auto">{children}</div>
           </div>
         </div>
       </body>

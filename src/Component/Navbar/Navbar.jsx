@@ -7,7 +7,7 @@ const Navbar = () => {
     const navItems = [
         { icon: FaHome, label: 'Home', href: '/' },
         { icon: BsFillPersonVcardFill, label: 'About', href: '/AboutPage' },
-        { icon: FaFolder, label: 'Projects', href: '/ProjectPage' },
+        { icon: FaFolder, label: 'Projects', href: '/Projects' },
         { icon: FaTools, label: 'Tools', href: '/ToolsPage' },
         { icon: FaSuitcase, label: 'Experience', href: '/experience' },
         { icon: FaPen, label: 'Blog', href: '/blog' },

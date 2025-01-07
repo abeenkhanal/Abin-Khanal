@@ -6,7 +6,7 @@ const Profile = () => {
     <div className="p-6  md:p-12 bg-[#1c1c1e] rounded-xl shadow-lg mx-auto w-full  text-center">
       {/* Profile Picture */}
       <img
-        src="./pp.png"
+        src="./logo1.png"
         alt="Abeen Khanal"
         className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-lg mx-auto object-cover"
       />

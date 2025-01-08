@@ -19,7 +19,7 @@ const page = async ({ params }) => {
         <div className="bg-black text-white min-h-screen py-20  md:px-12 lg:px-20">
             {/* Back Button */}
             <div className="mb-8">
-                <a href="/projects" className="text-gray-400 hover:text-gray-200 flex items-center gap-2">
+                <a href="/Projects" className="text-gray-400 hover:text-gray-200 flex items-center gap-2">
                     <span className="text-lg"><IoIosArrowRoundBack /> </span>
                     <span>All Projects</span>
                 </a>

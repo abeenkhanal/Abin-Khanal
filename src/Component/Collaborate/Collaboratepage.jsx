@@ -16,10 +16,9 @@ const Collaboratepage = () => {
             <FiArrowDownLeft className="w-5 h-5 text-purple-600" />
           </div>
         </div>
-
         {/* Heading */}
         <h2 className="text-6xl font-bold leading-tight w-4/6">
-          Let’s{' '}
+          Let’s{''}
           <span className="text-purple-400 transition-colors duration-500 ease-in-out group-hover:text-white">
             collaborate
           </span>

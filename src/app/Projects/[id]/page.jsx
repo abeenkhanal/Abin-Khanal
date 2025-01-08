@@ -7,15 +7,13 @@ import { notFound } from 'next/navigation';
 const page = async ({ params }) => {
     const { id } = await params;
     const project = Projects.find((project) => project.id === id);
-
     if (!project) notFound();
-
-
-
     return (
+
         // <div>
         //   this is one  {Stabraq}
         // </div>
+        
         <div className="bg-black text-white min-h-screen py-20  md:px-12 lg:px-20">
             {/* Back Button */}
             <div className="mb-8">
@@ -37,10 +35,7 @@ const page = async ({ params }) => {
                     </h2>
                     <p className="text-gray-300 leading-relaxed">
                         {project.aboutdescription} 
-                    </p>
-                    
-                       
-                    
+                    </p>     
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-md mt-7">
                         <img src={project.image} alt="Project Image" className="w-full"/> 

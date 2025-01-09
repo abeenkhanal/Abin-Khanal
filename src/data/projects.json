@@ -3,7 +3,8 @@
       "id": "1",
       "title": "Stabraq",
       "description": "Portfolio Framer Template",
-      "image": "/logo1.png",
+      "images": ["/logo2.png", "/logo1.png", "/logo4.png"],
+      "primaryimage": "/logo1.png",
       "link": "/Projects/Stabraq",
       "aboutdescription": "Stabraq is a modern portfolio template for Framer. It is designed for developers, designers, and freelancers who want to showcase their work in a professional way. The template is fully customizable and easy to use. It includes 6 different sections: Home, About, Services, Portfolio, Testimonials, and Contact. You can easily change the colors, fonts, and images to match your brand. The template is built with Framer Motion, a popular animation library for React. It is responsive and works on all devices. You can use it to create a beautiful portfolio website in minutes."
     },
@@ -11,7 +12,8 @@
       "id": "2",
       "title": "NajmAI",
       "description": "Modern Framer Template",
-      "image": "/logo2.png",
+      "primaryimage": "/logo2.png",
+      "images": ["/logo3.png", "/logo2.png", "/logo1.png"],
       "link": "/Projects/NajmAI",
       "aboutdescription": "NajmAI is a modern Framer template for startups and small businesses. It is designed to help you create a professional website in minutes. The template is fully customizable and easy to use. It includes 6 different sections: Home, About, Services, Portfolio, Testimonials, and Contact. You can easily change the colors, fonts, and images to match your brand. The template is built with Framer Motion, a popular animation library for React. It is responsive and works on all devices. You can use it to create a beautiful website for your startup or small business."
     },
@@ -19,7 +21,8 @@
       "id": "3",
       "title": "TaskAI",
       "description": "SaaS Framer Template",
-      "image": "/logo3.png",
+      "primaryimage": "/logo3.png",
+     "images": ["/logo1.png", "/logo4.png"],
       "link": "/Projects/TaskAI",
       "aboutdescription":"TaskAI is a SaaS Framer template for project management and task tracking. It is designed for teams and individuals who want to manage their projects and tasks in a simple and efficient way. The template is fully customizable and easy to use. It includes 6 different sections: Home, Features, Pricing, Testimonials, FAQ, and Contact. You can easily change the colors, fonts, and images to match your brand. The template is built with Framer Motion, a popular animation library for React. It is responsive and works on all devices. You can use it to create a beautiful website for your SaaS product in minutes."
     },
@@ -27,7 +30,8 @@
       "id": "4",
       "title": "Ruya",
       "description": "SaaS Framer Template",
-      "image": "/logo4.png",
+    "images": ["/logo1.png", "/logo2.png", "/logo3.png"],
+      "primaryimage": "/logo4.png",
       "link": "/Projects/Ruya",
       "aboutdescription":"ruya is a modern Framer template for SaaS products and startups. It is designed to help you create a professional website in minutes. The template is fully customizable and easy to use. It includes 6 different sections: Home, Features, Pricing, Testimonials, FAQ, and Contact. You can easily change the colors, fonts, and images to match your brand. The template is built with Framer Motion, a popular animation library for React. It is responsive and works on all devices. You can use it to create a beautiful website for your SaaS product or startup."
     }

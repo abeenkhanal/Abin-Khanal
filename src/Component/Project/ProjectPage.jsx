@@ -20,7 +20,7 @@ const ProjectPage = () => {
             >
               <div className="relative h-56 overflow-hidden group-hover:scale-110 transition-transform duration-500">
                 <Image
-                  src={project.image}
+                  src={project.primaryimage}
                   alt={project.title}
                   layout="fill"
                   objectFit="cover"

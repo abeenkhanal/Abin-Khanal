@@ -38,9 +38,20 @@ const page = async ({ params }) => {
                     </p>     
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-md mt-7">
-                        <img src={project.image} alt="Project Image" className="w-full"/> 
-                    </div>
-            </div>
+    {project.images && project.images.length > 0 ? (
+        project.images.map((image, index) => (
+            <img 
+                key={index} 
+                src={image} 
+                alt={`Project Image ${index + 1}`} 
+                className="w-full mb-4" // Add margin between images
+            />
+        ))
+    ) : (
+        <p>No images available</p> // Fallback if no images exist
+    )}
+</div>
+
         </div>
     )
 }

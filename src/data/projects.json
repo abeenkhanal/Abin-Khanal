@@ -19,7 +19,7 @@
       "id": "3",
       "title": "TaskAI",
       "description": "SaaS Framer Template",
-      "image": "/logo3.png",
+      "image": "/logo3.png","/logo4.png","/logo2.png"
       "link": "/Projects/TaskAI",
       "aboutdescription":"TaskAI is a SaaS Framer template for project management and task tracking. It is designed for teams and individuals who want to manage their projects and tasks in a simple and efficient way. The template is fully customizable and easy to use. It includes 6 different sections: Home, Features, Pricing, Testimonials, FAQ, and Contact. You can easily change the colors, fonts, and images to match your brand. The template is built with Framer Motion, a popular animation library for React. It is responsive and works on all devices. You can use it to create a beautiful website for your SaaS product in minutes."
     },

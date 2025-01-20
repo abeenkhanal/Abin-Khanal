@@ -39,7 +39,7 @@ const tools = [
     },
 ];
 
-const Tools = () => {
+const ToolsPage = () => {
     return (
         <div className="bg-black text-white py-20">
             {/* Title */}
@@ -75,4 +75,4 @@ const Tools = () => {
     );
 };
 
-export default Tools;
+export default ToolsPage;

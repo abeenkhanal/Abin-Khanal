@@ -46,7 +46,7 @@ const TestimonialPage = () => {
     };
 
     return (
-        <div className="h-screen bg-black text-white py-20">
+        <div className="h-fit bg-black text-white py-20">
             {/* Title Section */}
             <div className="mb-8">
                 <h2 className="text-6xl font-medium w-4/6">

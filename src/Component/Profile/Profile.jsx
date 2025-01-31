@@ -18,7 +18,7 @@ const Profile = () => {
       />
 
       {/* Name */}
-      <h2 className={`text-2xl sm:text-3xl ${newe.className} md:text-4xl font-bold mt-6 text-center text-white`}>
+      <h2 className={`text-2xl sm:text-3xl md:text-4xl font-bold mt-6 text-center text-white`}>
         Abin Khanal
       </h2>
       <p className="text-center text-gray-400 text-sm sm:text-base md:text-lg mt-2">

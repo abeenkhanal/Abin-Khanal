@@ -68,7 +68,6 @@ const Profile = () => {
           <FaEnvelope className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
       </div>
-
       {/* Button */}
       <button className="mt-12 w-full bg-purple-600 hover:bg-purple-800 text-white py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold">
         Let's Talk

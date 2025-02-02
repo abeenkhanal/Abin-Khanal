@@ -49,7 +49,6 @@ const Profile = () => {
         >
           <FaTwitter className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
-
         {/* Instagram Icon */}
         <a
           href="https://www.instagram.com/abeenkhanal/"

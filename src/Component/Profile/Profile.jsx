@@ -27,7 +27,6 @@ const Profile = () => {
       <p className="text-center text-gray-400 text-sm sm:text-base md:text-lg">
         Butwal, Nepal
       </p>
-
       {/* Social Icons */}
       <div className="flex justify-center mt-8 space-x-6 md:space-x-8">
         {/* Dribbble Icon */}

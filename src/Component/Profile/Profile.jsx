@@ -34,8 +34,7 @@ const Profile = () => {
           href="https://www.facebook.com/abeen.khanal"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 group"
-        >
+          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 group">
           <FaDribbble className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
 
@@ -44,8 +43,7 @@ const Profile = () => {
           href="https://twitter.com/your-profile-link"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 group"
-        >
+          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 group">
           <FaTwitter className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
         {/* Instagram Icon */}

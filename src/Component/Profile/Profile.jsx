@@ -51,16 +51,14 @@ const Profile = () => {
           href="https://www.instagram.com/abeenkhanal/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500 group"
-        >
+          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-orange-500 hover:to-red-500 group">
           <FaInstagram className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
 
         {/* Email Icon */}
         <a
           href="mailto:abeenkhanal16@gmail.com"
-          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-green-500 hover:to-teal-500 group"
-        >
+          className="p-3 md:p-4 rounded-full bg-[#252525] transition-all duration-300 transform hover:scale-110 hover:bg-gradient-to-r hover:from-green-500 hover:to-teal-500 group">
           <FaEnvelope className="text-gray-400 transition-colors duration-300 group-hover:text-white" />
         </a>
       </div>

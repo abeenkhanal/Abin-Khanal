@@ -58,14 +58,12 @@ const TestimonialPage = () => {
             <div className="top-1/2 transform -translate-y-1/2 flex gap-8 justify-end px-4">
                 <button
                     className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white hover:bg-purple-700 transition-colors duration-300"
-                    onClick={handlePrev}
-                >
+                    onClick={handlePrev}>
                     ←
                 </button>
                 <button
                     className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white hover:bg-purple-700 transition-colors duration-300"
-                    onClick={handleNext}
-                >
+                    onClick={handleNext}>
                     →
                 </button>
             </div>
